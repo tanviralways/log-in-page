@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ----------- tailwind css cdn -------------->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-------------- fontawesome css cdn ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg-slate-100">
+      <div class="md:flex justify-center py-16 flex-row-reverse">
+        <div>
+          <img class="" src="/img.svg" alt="" />
+        </div>
+        <div class="bg-white p-10 rounded-md flex flex-col gap-y-5">
+          <h3 class="text-sml sm:text-2xl font-bold">CodeSchoolBD</h3>
+          <h1 class="text-4xl font-bold">Welcome back</h1>
+
+          <p class="text-gray-500 text-lg">
+            Start your website in seconds. Don't have an account?<span
+              class="text-teal-600 font-semibold"
+              ><a href="">Sign up</a></span
+            >
+          </p>
+          <div class="md:flex-none xl:flex">
+            <div>
+              <h4 class="text-xl font-semibold my-2">Email</h4>
+              <input
+                class="bg-gray-50 py-2.5 px-7 mr-2 rounded-lg text-lg text-gray-600 border-2 border-gray-300"
+                type="email"
+                placeholder="type email"
+              />
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold ml-2 my-2">Password</h4>
+              <input
+                class="bg-gray-50 py-2.5 px-7 ml-2 rounded-lg text-lg text-gray-600 border-2 border-gray-300 focus:border-2 focus:border-red-600"
+                type="password"
+                placeholder="type password"
+              />
+            </div>
+          </div>
+
+          <hr />
+          <span class="text-center text-lg text-gray-700 font-medium">or</span>
+
+          <a
+            class="border border-gray-300 block py-2 my-1 rounded-lg text-center text-xl font-semibold hover:text-white hover:bg-teal-600"
+            href=""
+            ><img class="w-5 inline" src="/Google__G__Logo.svg.webp" alt="" />
+            Sign in with google</a
+          >
+          <a
+            class="border border-gray-300 block py-2 my-1 rounded-lg text-center text-xl font-semibold hover:text-white hover:bg-teal-600"
+            href=""
+            ><i class="fa-brands fa-apple text-2xl"></i> Sign in with apple</a
+          >
+          <div class="flex justify-between">
+            <p class="text-lg font-semibold text-gray-500">
+              <input type="checkbox" class="default:ring-2 text-gray-600" />
+
+              Remember me
+            </p>
+            <p class="text-lg font-semibold text-teal-600">Forgot password ?</p>
+          </div>
+          <a
+            class="border border-gray-500 block py-2 rounded-lg text-center text-xl text-white bg-teal-600 hover:bg-teal-700"
+            href=""
+            >Sign in to your account</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
